@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF1627662946</mes:ID>
+    <mes:Test>True</mes:Test>
+    <mes:Prepared>2021-07-30T16:35:46</mes:Prepared>
+    <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
+    <mes:Structure structureID="MDS1">
+      <com:Structure>
+        <URN>urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IAEG-SDGs:SDG_MSD(0.3)</URN>
+      </com:Structure>
+    </mes:Structure>
+  </mes:Header>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="f71a0f14-6078-4f25-9b59-14066ec9b8dd">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SE_ADT_ACTS</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>716</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.4 Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>4.4.1 Proportion of youth and adults with information and communications technology (ICT) skills, by type of skill</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>9 July 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<h5>5.b.1: Proportion of individuals who own a mobile telephone, by sex</h5><h5>9.c.1: Proportion of population covered by a mobile network, by technology</h5><h5>17.6.1: Fixed Internet broadband subscriptions per 100 inhabitants, by speed</h5><p>17.8.1: Proportion of individuals using the Internet</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Zimbabwe National Statistics Agency (ZIMSTAT)</strong></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Tinashe Mwadiwa</strong></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Population Census and Social Statistics Division</strong></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Manager</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>263-0242-797972</strong></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>dg@zimstat.co.zw</strong></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>mwadiwat@zimstat.co.zw</strong></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition</strong></p><p>Percentage of men and women age 15-49 years who in the last 3 months have carried out computer related activities.</p><p><strong>Concepts</strong></p><p>Computer related activities are as follows:</p><p>- Copying or moving a file or folder </p><p>- Using copy and paste tools to duplicate or move information within a document </p><p>-Sending e-mails with attached files such as document, picture, video</p><p>- Using basic arithmetic formulas in a spreadsheet </p><p>- Connecting and installing new devices such as a modem, camera, printer</p><p>- Finding, downloading, installing and configuring software</p><p>- Creating electronic presentations with presentation software including text, images, sound, video or charts</p><p>- Transferring files between a computer and other devices</p><p>- Wrote a computer program in any programming language</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Multiple Indicator Cluster Survey (MICS). </p><p>The survey is designed to provide high quality data for assessing the situation of children, adolescents, women and households in Zimbabwe.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Sample design</strong></p><p><strong>Sample size</strong></p><p><em> </em>A total of 462 clusters and 12,012 households were selected at the national level.</p><p><strong>Questionnaire design</strong></p><p>Six questionnaires were used in the survey, i.e. (i) Household questionnaire, (ii) Water and Sanitation, (iii) Individual Men/Women, (v) Children Age 5-17 yrs and (vi) Children under 5 yrs.</p><p><strong>Type of interview</strong></p><p>Household based interview using Computer Assisted Personal Interviews (CAPI).</p><p><strong>Duration of fieldwork</strong></p><p>Fieldwork began in January 2019 and was concluded in April 2019.</p><p><strong>Interviewer training</strong></p><p>Training was done in 35 days and included lectures on interviewing techniques and questionnaire content, mock interviews to gain practical experience. The trainees also had 4 days of field practice</p><p><strong>Response rate</strong></p><p>The household response rate was 98 % while the Water Quality Testing yielded a response rate of 95.6%. Overall response rate of 92.8; 87.1; 96.1 and 96.3 percent were yielded for the individual interviews of women, men, under age 5 and children age 5-17 years, respectively.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Next data collection is planned for 2024.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Preliminary results are normally produced 02 months after data collection, while the final results should be available after -04 months.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Zimbabwe National Statistics Agency, ZIMSTAT</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Zimbabwe National Statistics Agency, ZIMSTAT</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The data collection and production of statistics for this indicator adhere to the census and Statistics Act of Zimbabwe.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ICT skills determine the effective use of information and communication technology. The lack of such skills is a key barrier keeping people from fully benefitting from the potential of information and communication technologies. </p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>In-scope who have carried out each activity in the past 3 months, regardless of where that activity took place, divided by total in-scope population, multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>During data collection, the field supervisor is responsible for reviewing paper questionnaires for completeness and consistency before entering data into a tablet equipped with a data entry programme. </p><p>After the completion of data entry, data is cleaned by conducting internal tests for outlier answers and comprehensive audit rules. SPSS Version 24 was used to analyse data and Model syntax and tabulation plan developed by UNICEF were customized and used for this purpose.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Global metadata prepared by custodian agencies are available for the indicator.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ZIMSTAT follows the recommendations of the UN Fundamental Principles of Official Statistics, the African Charter on Statistics and UN National Quality Assurance Framework.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_ASSURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Data were received at the ZIMSTAT head office via the File Transfer Protocol (FTP) integrated into the management application on the supervisor’s tablets. Whenever logistically possible, synchronization was daily. The central office system developers installed application updates to field staff manually<em>.</em></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator is available since 2014. The survey is conducted every 5 years. </p><p>The indicator is available by type of skill, urban/rural, province, age, education, functional difficulties, religion of household head and wealth index quintile.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPARABILITY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator follows the international standard defined by the International Telecommunications Union (ITU)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2019 Multiple Indicator Cluster Survey Report, Findings Report</p><p><a href="https://www.zimstat.co.zw/wp-content/uploads/publications/Social/Health/MICS2019/MICS-2019.pdf">https://www.zimstat.co.zw/wp-content/uploads/publications/Social/Health/MICS2019/MICS-2019.pdf</a></p><p><a href="https://zimbabwe.opendataforafrica.org/">https://zimbabwe.opendataforafrica.org/</a></p><p><a href="http://www.zimstat.co.zw/">www.zimstat.co.zw</a></p><p><a href="http://www.unicef.org/zimbabwe">www.unicef.org/zimbabwe</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+</mes:GenericMetadata>
+        

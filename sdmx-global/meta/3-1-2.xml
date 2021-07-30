@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mes:GenericMetadata xmlns:mes="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/message" xmlns:gen="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/metadata/generic" xmlns:com="http://www.sdmx.org/resources/sdmxml/schemas/v2_1/common">
+  <mes:Header>
+    <mes:ID>IREF1627662946</mes:ID>
+    <mes:Test>True</mes:Test>
+    <mes:Prepared>2021-07-30T16:35:46</mes:Prepared>
+    <mes:Sender id="open-sdg_sdg-build@1-4-0"/>
+    <mes:Structure structureID="MDS1">
+      <com:Structure>
+        <URN>urn:sdmx:org.sdmx.infomodel.metadatastructure.MetadataStructure=IAEG-SDGs:SDG_MSD(0.3)</URN>
+      </com:Structure>
+    </mes:Structure>
+  </mes:Header>
+  
+  <mes:MetadataSet structureRef="MDS1" setID="37fd129e-a854-4f10-b032-08e66bc04f6c">
+    <com:Name xml:lang="en">SDG METADATA SET</com:Name>
+    <gen:Report id="SDG_META_RPT">
+      <gen:Target id="KEY_TARGET">
+        <gen:ReferenceValue id="DIMENSION_DESCRIPTOR_VALUES_TARGET">
+          <gen:DataKey>
+            <com:KeyValue id="SERIES">
+              <com:Value>SH_STA_BRTC</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REPORTING_TYPE">
+              <com:Value>N</com:Value>
+            </com:KeyValue>
+            <com:KeyValue id="REF_AREA">
+              <com:Value>716</com:Value>
+            </com:KeyValue>
+          </gen:DataKey>
+        </gen:ReferenceValue>
+        <gen:ReferenceValue id="Dataflow">
+          <gen:ObjectReference>
+            <URN>urn:sdmx:org.sdmx.infomodel.datastructure.Dataflow=IAEG-SDGs:DF_SDG_GLC(1.0)</URN>
+          </gen:ObjectReference>
+        </gen:ReferenceValue>
+      </gen:Target>
+      <gen:AttributeSet>
+        
+        <gen:ReportedAttribute id="SDG_GOAL">
+          
+          <com:Text xml:lang="en"><![CDATA[<h5>3. Ensure Good Health and Well Being for All</h5>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_TARGET">
+          
+          <com:Text xml:lang="en"><![CDATA[<h5>3.1: By 2030, reduce the global maternal mortality ratio to less than 70 per 100,000 live births</h5>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_INDICATOR">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>3.1.2 Proportion of births attended by skilled health personnel</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="META_LAST_UPDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>9 July 2021</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SDG_RELATED_INDICATORS">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Related to Target 3.1 on reducing maternal mortality, 3.2 on reducing neonatal mortality and 3.8 on achieving universal health coverage (coverage of essential health services)</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_ORGANISATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Zimbabwe National Statistics Agency (ZIMSTAT)</strong></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_NAME">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Tinashe Mwadiwa</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="ORGANISATION_UNIT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Population Census and Social Statistics Division</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_FUNCT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Manager</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_PHONE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>263-0242-797972</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_MAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>dg@zimstat.co.zw</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CONTACT_EMAIL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>mwadiwat@zimstat.co.zw</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="STAT_CONC_DEF">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>Definition</strong></p><p>The proportion of total live births in a period that are attended by a skilled birth attendant trained in providing lifesaving obstetric care.</p><p><strong>Concepts</strong></p><p>Women age 15-49 years with a live birth in the last 2 years for MICS and in the last 5 years for DHS. </p><p>Skilled birth attendant include doctor, nurse and midwife</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="UNIT_MEASURE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Percentage</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="CLASS_SYSTEM">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The indicator is calculated in line with WHO Recommendations on Antenatal Care for a Positive Pregnancy Experience, WHO Press 2016</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="SOURCE_TYPE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Different surveys provide data at different years for this indicator </p><p><strong>Demographic  Health Survey (DHS): </strong></p><p>The primary objective of the survey is to provide current demographic and health information for use by policymakers, planners, researchers and programme managers. The survey will thus assist policy makers and programme managers in evaluating and designing programmes and strategies for improving the health of the country’s population.</p><p><strong>Multiple Indicator Cluster Survey (MICS): </strong></p><p>The survey is designed to provide high quality data for assessing the situation of children, adolescents, women and households in Zimbabwe</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COLL_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<table><tr><td><p><strong>ICDS</strong></p></td><td><p><strong>MICS</strong></p></td></tr><tr><td><p><strong>Sample design</strong></p><p>The 2012 Zimbabwe Population Census was used as the sampling frame for the 2015 ZDHS.</p></td><td><p><strong>Sample design</strong></p></td></tr><tr><td><p><strong>Sample size</strong></p><p>The 2015 DHS sample was selected with a stratified, two-stage cluster design. The 2015 DHS sample included 400 enumeration areas: 166 in urban areas and 234 in rural areas. A representative sample of 11,196 households was selected for the 2015 DHS.</p></td><td><p><strong>Sample size</strong></p><p><em> </em>A total of 462 clusters and 12,012 households were selected at the national level.</p></td></tr><tr><td><p><strong>Questionnaire design</strong></p><p>Four questionnaires were used for the 2015 DHS: the Household Questionnaire, the Woman’s Questionnaire, the Man’s Questionnaire, and the Biomarker Questionnaire. </p><p>Women age 15-49 and men age 15-54 who were either permanent residents of the selected households or visitors who stayed in the household the night before the survey were eligible for interviewing.</p></td><td><p><strong>Questionnaire design</strong></p><p>Six questionnaires were used in the survey, i.e. (i) Household questionnaire, (ii) Water and Sanitation, (iii) Individual Men/Women, (v) Children Age 5-17 yrs and (vi) Children under 5 yrs.</p></td></tr><tr><td><p><strong>Type of interview</strong></p><p>Household based interview using Computer Assisted Personal Interviews (CAPI), with the option to choose English, Shona, or Ndebele for each questionnaire.</p></td><td><p><strong>Type of interview</strong></p><p>Household based interview using Computer Assisted Personal Interviews (CAPI).</p></td></tr><tr><td><p><strong>Duration of fieldwork</strong></p><p>Fieldwork took place over a 6-month period from July 6 to December 20, 2015.<strong> </strong></p></td><td><p><strong>Duration of fieldwork</strong></p><p>Fieldwork began in January 2019 and was concluded in April 2019.</p></td></tr><tr><td><p><strong>Interviewer training</strong></p><p>Training was done in 25 days and included lectures on interviewing techniques and field procedures, a detailed review of the questionnaire content, and mock interviews between participants in the classroom. The trainees also had 3 days of field practice.</p></td><td><p><strong>Interviewer training</strong></p><p>Training was done in 35 days and included lectures on interviewing techniques and questionnaire content, mock interviews to gain practical experience. The trainees also had 4 days of field practice</p></td></tr><tr><td><p><strong>Response rate</strong></p><p>A total of 10,534 households were successfully interviewed, yielding a response rate of 99 percent.</p></td><td><p><strong>Response rate</strong></p><p>The household response rate was 98 % while the Water Quality Testing yielded a response rate of 95.6%. Overall response rate of 92.8; 87.1; 96.1 and 96.3 percent were yielded for the individual interviews of women, men, under age 5 and children age 5-17 years, respectively.</p></td></tr><tr><td/><td/></tr></table>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="FREQ_COLL">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>DHS:</strong> Every 5 years</p><p><strong>MICS</strong>: Next data collection is planned for 2024.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="REL_CAL_POLICY">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>DHS:</strong> Every 5 years</p><p><strong>MICS</strong>: Preliminary results are normally produced 02 months after data collection, while the final results should be available after -04 months</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_SOURCE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Zimbabwe National Statistics Agency, ZIMSTAT</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COMPILING_ORG">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Zimbabwe National Statistics Agency, ZIMSTAT</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="INST_MANDATE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>The data collection and production of statistics for this indicator adhere to the census and Statistics Act of Zimbabwe.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="RATIONALE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Antenatal care can be used to inform women and families about risks and symptoms in pregnancy and about the risks of labour and delivery, and therefore it may provide the route for ensuring that pregnant women do, in practice deliver with the assistance of a skilled health provider. Antenatal visits also provide the opportunity to supply information on birth spacing, which is recognized as an important factor in improving infant survival. </p><p>It is of crucial importance for the pregnant women to start attending antenatal care visits as early as in pregnancy as possible and ideally have the first visit during the first trimester to prevent and detect pregnancy conditions that could affect both the women and her baby.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_COMP">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Calculated as the number of births attended by skilled health personnel (doctors, nurses or midwives) divided by the total number of births in the same period and multiplied by 100.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DATA_VALIDATION">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>DHS:</strong> CSPro was used for data editing, weighting, cleaning, and tabulation. In ZIMSTAT’s central office, data received from the supervisor’s tablets were registered and checked for inconsistencies and outliers. Data editing and cleaning included structure and internal consistency checks to ensure the completeness of work in the field. Any anomalies were communicated to the respective team through the technical team and the team supervisor. The corrected results were then re-sent to the central office.</p><p><strong>MICS</strong>: During data collection, the field supervisor is responsible for reviewing paper questionnaires for completeness and consistency before entering data into a tablet equipped with a data entry programme. </p><p>After the completion of data entry, data is cleaned by conducting internal tests for outlier answers and comprehensive audit rules. SPSS Version 24 was used to analyse data and Model syntax and tabulation plan developed by UNICEF were customized and used for this purpose.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="DOC_METHOD">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>Global metadata prepared by custodian agencies are available for the indicator.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="QUALITY_MGMNT">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>ZIMSTAT follows the recommendations of the UN Fundamental Principles of Official Statistics, the African Charter on Statistics and UN National Quality Assurance Framework.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="COVERAGE">
+          
+          <com:Text xml:lang="en"><![CDATA[<p><strong>DHS:</strong> The survey is conducted since 1988. The survey is conducted approximately every 5 years. </p><p>The indicator is available by mother’s age at birth, birth order, antenatal care visits, place of delivery, rural/urban, province, mother’s education, wealth quintile.</p><p><strong>MICS</strong>: The survey is available since 2014. The survey is conducted every 5 years. </p><p>The indicator is available by geographical location, sex, age, religion, education of mother, wealth quantile and functional difficulty of mother.</p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+        <gen:ReportedAttribute id="OTHER_DOC">
+          
+          <com:Text xml:lang="en"><![CDATA[<p>2019 Multiple Indicator Cluster Survey Report, Findings Report</p><p><a href="https://www.zimstat.co.zw/wp-content/uploads/publications/Social/Health/MICS2019/MICS-2019.pdf">https://www.zimstat.co.zw/wp-content/uploads/publications/Social/Health/MICS2019/MICS-2019.pdf</a></p><p>Demographic Health Survey 2015:</p><p><a href="https://www.dhsprogram.com/pubs/pdf/FR322/FR322.pdf">https://www.dhsprogram.com/pubs/pdf/FR322/FR322.pdf</a></p><p><a href="https://zimbabwe.opendataforafrica.org/">https://zimbabwe.opendataforafrica.org/</a></p><p><a href="http://www.zimstat.co.zw/">www.zimstat.co.zw</a></p><p><a href="http://www.unicef.org/zimbabwe">www.unicef.org/zimbabwe</a></p>]]></com:Text>
+          
+        </gen:ReportedAttribute>
+        
+      </gen:AttributeSet>
+    </gen:Report>
+  </mes:MetadataSet>
+  
+</mes:GenericMetadata>
+        
