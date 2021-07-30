@@ -1,0 +1,38 @@
+docs_baseurl: /fcdo-zw-data
+languages:
+  - en
+site_dir: '_site'
+src_dir: ''
+
+schema_file: metadata_schema.yml
+
+docs_branding: Zimbabwe SDG data summary
+docs_intro: This summary uses code from the Open SDG project to
+  display reports and examples from the Zimbabwe SDG data.
+docs_extra_disaggregations:
+  - UNIT_MEASURE
+  - UNIT_MULT
+  - SERIES
+
+inputs:
+  - class: InputOpenDataPlatform
+    source: data.json
+    column_map: columns-afdb.csv
+    code_map: codes-afdb.csv
+  - class: InputWordMeta
+    path_pattern: meta/*.docm
+
+translations:
+  - class: TranslationInputSdgTranslations
+    source: https://github.com/open-sdg/sdg-translations.git
+    tag: 1.4.0
+  - class: TranslationInputYaml
+    source: translations
+
+reporting_status_extra_fields: []
+
+sdmx_output_global:
+  meta_reporting_type: N
+  meta_ref_area: '716'
+  default_values:
+    REF_AREA: '716'
